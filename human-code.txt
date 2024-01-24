@@ -1,0 +1,37 @@
+-Cerco la pizzeria su Tripadvisor
+
+FINCHE pizzeria non trovata
+	SE la pizzeria ha piu di 4.5 stelle
+	-controllo i prezzi
+	SE il prezzo e minore di un tot
+	-controllo il tempo di consegna
+	SE il tempo di attesa e inferiore a 30 min
+	-seleziono questa pizzeria
+	
+
+	ALTRIMENTI
+	-Controlla prossima pizzeria
+
+
+- Seleziono la pizza
+	SE mi sento felice
+	-scelgo prosciutto e funghi
+	ALTRIMENTI
+	-scelgo una marinara triste
+
+-Specifico l'indirizzo della consegna
+-Pago la pizza via app
+
+-Attendo la consegna 
+	SE pizza viene consegnata
+	-Ritiro la pizza
+	Se la pizza e' consegnata entro 30 minuti
+	-Do la mancia al fattorino
+	ALTRIMENTI
+	-Aspetto per 15 min
+
+-Mangio la pizza
+	SE mangio tutta la pizza
+	-Butto via il cartone
+	ALTRIMENTI
+	-Metto gli avanzi dentro il frigo
